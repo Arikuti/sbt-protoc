@@ -8,7 +8,7 @@ description := "SBT plugin for generating code from Protocol Buffer using protoc
 
 scalacOptions := Seq("-deprecation", "-unchecked", "-Xlint", "-Yno-adapted-args")
 
-scalacOptions += "-target:jvm-1.7"
+scalacOptions += "-target:jvm-1.8"
 
 libraryDependencies ++= Seq(
   "com.github.os72" % "protoc-jar" % "3.3.0",
